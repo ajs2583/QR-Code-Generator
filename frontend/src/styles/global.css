@@ -1,0 +1,27 @@
+@import "tailwindcss"; /* Load Tailwind */
+
+@layer utilities {
+  .btn {
+    @apply px-4 py-2 rounded-lg font-bold text-white shadow-md transition duration-300;
+  }
+
+  .btn-primary {
+    @apply bg-blue-500 hover:bg-blue-600;
+  }
+
+  .btn-secondary {
+    @apply bg-green-500 hover:bg-green-600;
+  }
+}
+
+/* Optional: Global styles */
+body {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  background-color: #f8f9fa; /* Light background */
+  color: #212529; /* Dark text for contrast */
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+}
