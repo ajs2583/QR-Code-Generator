@@ -13,7 +13,7 @@ A simple **QR Code Generator** built with **Flask** (backend) and **React** (fro
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/your-username/qr-code-generator.git
+git clone https://github.com/ajs2583/qr-code-generator.git
 cd qr-code-generator
 ```
 
